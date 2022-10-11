@@ -1,0 +1,78 @@
+.home{
+    min-height: 100vh;
+    background-color: rgb(226, 235, 234);
+
+    .navbar-home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(25, 81, 25);
+        height: 8vh;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .categories{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        align-items: center;
+        justify-content: center;
+        margin: 2rem auto;
+
+        .box{
+            margin: 2rem;
+            border: 1px solid black;
+            border-radius: 2rem;
+            transition: all 0.5s ease;
+            -webkit-box-shadow: 0px 0px 4px 1px #000000; 
+            box-shadow: 0px 0px 4px 1px #000000;
+
+            span{
+                color: rgb(175, 72, 72);
+            }
+
+            &:hover{
+                transform: scale(1.1);
+
+            }
+
+            h1{
+                color: white;
+                text-align: center;
+                font-size: 1.4rem;
+                font-family: 'Poppins', sans-serif;
+                padding: 1rem;
+            }
+
+            .icon{
+                cursor: pointer;
+                transition: all 0.5s ease;
+                font-size: 9rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 1rem auto;
+                color: white;
+            }
+
+            
+
+            &.wildfire{
+                background-color: rgb(140, 56, 56);
+            }
+
+            &.volcano{
+                background-color: rgb(36, 31, 31)
+            }
+
+            &.storm{
+                background-color: rgb(50, 48, 75)
+            }
+
+            &.ice{
+                background-color: rgb(124, 181, 217);
+            }
+        }
+    }
+}

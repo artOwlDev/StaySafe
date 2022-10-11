@@ -1,0 +1,28 @@
+.footer{
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    background: black;
+    flex-direction: column;
+
+    h1{
+        color: white;
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+        margin: 2rem;
+
+    }
+
+    span{
+        font-size: 1rem;
+    }
+
+    p{
+        margin: 1rem;
+        color: white;
+        font-size: 0.7rem;
+    }
+}

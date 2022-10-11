@@ -1,0 +1,45 @@
+
+.sidebar{
+    position: fixed;
+    right: 3rem;
+    bottom: 0;
+    
+    .icons{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .icon{
+            transition: all 0.6s ease;
+            cursor: pointer;
+            color: black;
+            font-size: 1.8rem;
+
+            &:hover{
+                transform: translateY(-10px);
+
+                &.link{
+                    color: rgb(37, 84, 123);
+                }
+
+                &.git{
+                    color: rgb(43, 40, 40);
+                }
+            }
+        }
+
+        .vl{
+            border-right: 2px solid black;
+            height: 7rem;
+            margin-right: 0.8rem;
+        }
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .sidebar{
+        display: none;
+    }
+}
+

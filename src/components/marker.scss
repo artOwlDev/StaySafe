@@ -1,0 +1,14 @@
+
+
+.marker{
+
+    .icon{
+        cursor: pointer;
+        font-size: 2rem;
+        color: rgb(196, 82, 82);
+
+        &.storm{
+            color: #384e64;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.details{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+   
+
+    .details-box{
+        width: 300px;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 2rem;
+        -webkit-box-shadow: 0px 0px 4px 1px #000000; 
+        box-shadow: 0px 0px 4px 1px #000000;
+        
+        &.volcano{
+            background-color: rgba(40, 33, 33, 0.9);
+        }
+
+        &.fire{
+            background-color: rgba(113, 23, 23, 0.9);
+        }
+
+        &.storm{
+            background-color: #384e64da;
+        }
+
+        &.ice{
+            background-color: rgb(60, 130, 201);
+        }
+
+        h1{
+            color: white;
+            font-family: 'Roboto Mono', monospace;
+            text-align: center;
+            font-size: 1rem;
+            margin: 1rem;
+        }
+
+        p{
+            font-family: 'Poppins', sans-serif;
+            color: rgb(220, 208, 208);
+            text-align: center;
+            margin: 1rem;
+        }
+
+        span{
+            color: red;
+            font-family: 'Raleway', sans-serif;
+        }
+    }
+
+}
