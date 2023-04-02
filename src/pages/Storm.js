@@ -17,7 +17,7 @@ const Storm = () => {
 
     useEffect(() => {
         getData();
-        console.log(eventsData)
+        console.log()
     },[])
 
     return (

@@ -8,12 +8,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: rgb(25, 81, 25);
+        background-color: rgb(41, 38, 38);
 
         height: 8vh;
         color: white;
-        font-family: 'Ubuntu', sans-serif;
-        
+        font-family: 'Poppins', sans-serif;        
     }
 
     .navbar-loading-ice{
@@ -24,8 +23,7 @@
 
         height: 8vh;
         color: white;
-        font-family: 'Ubuntu', sans-serif;
-        
+        font-family: 'Poppins', sans-serif;        
     }
 
     .loading{
@@ -33,9 +31,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 10rem auto;
-        font-family: 'Ubuntu', sans-serif;
-
+        margin: 10rem auto; 
+        font-family: 'Poppins', sans-serif;
+        
         img{
             margin: 2rem;
             object-fit: contain;

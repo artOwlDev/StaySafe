@@ -1,17 +1,22 @@
 
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Icon } from '@iconify/react'
 import fireIcon from '@iconify/icons-mdi/fire'
 import './home.scss'
 import { Link } from 'react-router-dom'
-import Sidebar from '../components/Sidebar'
 import Footer from '../components/Footer'
+import {BsHouseDoorFill} from "react-icons/bs"
 
 const Home = () => {
+    useEffect(() => {
+        console.log(`${process.env.REACT_APP_GOOGLEMAPS_API_KEY}`)
+    },[])
+
   return (
     <div className='home'>
         <div className="navbar-home">
+            <BsHouseDoorFill style={{margin: "1rem", fontSize: "2rem"}}/>
             <h1>StaySafe</h1>
         </div>
         <div className="categories">
@@ -43,9 +48,9 @@ const Home = () => {
                 </div>
             </Link>
 
-            <Sidebar/>    
         </div>
         <Footer/>
+
     </div>
   )
 }

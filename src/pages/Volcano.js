@@ -17,7 +17,7 @@ const Volcano = () => {
 
     useEffect(() => {
         getData();
-        console.log(eventsData)
+        console.log()
     },[])
 
     return (

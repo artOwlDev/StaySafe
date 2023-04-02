@@ -17,7 +17,7 @@ const Wildfire = () => {
 
     useEffect(() => {
         getData();
-        console.log(eventsData)
+        console.log()
     },[])
 
 

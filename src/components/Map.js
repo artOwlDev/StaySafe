@@ -33,7 +33,7 @@ const Map = (props) => {
         <div className='map'>
             
             <a href="/"><p className='map-p'>Home</p></a>
-            <GoogleMapReact bootstrapURLKeys={{key: `${process.env.REACT_APP_GOOGLEMAPS_API_KEY}` }}  defaultCenter={center} defaultZoom={zoom}>
+            <GoogleMapReact bootstrapURLKeys={{key: "AIzaSyBWxTsK8qlC180m3swQ7knwiDc9wJ7GWug" }}  defaultCenter={center} defaultZoom={zoom}>
 
                 {markers}  
             </GoogleMapReact>
