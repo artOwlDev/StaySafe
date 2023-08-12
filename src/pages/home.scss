@@ -1,5 +1,5 @@
 .home{
-    height: 100vh;
+    height: 100%;
     background-color: rgb(226, 235, 234);
 
     .navbar-home{
@@ -76,3 +76,51 @@
         }
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .categories{
+
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 1rem;
+
+        a{
+            width: 300px;
+        }
+
+        
+
+        .box{
+            &.volcano{
+                width: 300px;
+                margin: 0 10rem;
+            }
+
+            &.storm{
+                width: 300px;
+                margin: 0 10rem;
+
+
+            }
+
+            &.ice{
+                width: 300px;
+                margin: 0 10rem;
+
+
+            }
+
+            &.wildfire{
+                width: 300px;
+                margin: 0 10rem;
+
+
+            }
+        }
+    }
+
+}
+

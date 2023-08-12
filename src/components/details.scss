@@ -52,3 +52,11 @@
     }
 
 }
+
+@media screen and (max-width: 1000px) {
+    .details{
+        .details-box{
+            width: 200px;
+        }
+    }
+}
